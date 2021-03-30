@@ -1,0 +1,21 @@
+[2020-03-09 05:48:08] [info] Start Program:
+Path:"C:\\Users\\ilaza\\Desktop\\UBB\\ANUL 1 - semestrul 2\\LABORATOARE\\OOP\\Lab2_4\\Debug\\Lab2_4.exe"
+Arguments:
+Working directory: "C:\\Users\\ilaza\\Desktop\\UBB\\ANUL 1 - semestrul 2\\LABORATOARE\\OOP\\Lab2_4\\Lab2_4\\"
+Modules: Selected: C:\Users\ilaza\Desktop\UBB\ANUL 1 - semestrul 2\LABORATOARE\OOP\Lab2_4\Debug\Lab2_4.exe Excluded: 
+Sources: Selected: C:\Users\ilaza\Desktop\UBB\ANUL 1 - semestrul 2\LABORATOARE\OOP\Lab2_4\Lab2_4 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\ilaza\AppData\Local\Temp\y2mcanfz.lnd 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2020-03-09 05:48:08] [info] Module: C:\Users\ilaza\Desktop\UBB\ANUL 1 - semestrul 2\LABORATOARE\OOP\Lab2_4\Debug\Lab2_4.exe is selected because it matches selected pattern: C:\Users\ilaza\Desktop\UBB\ANUL 1 - semestrul 2\LABORATOARE\OOP\Lab2_4\Debug\Lab2_4.exe
+[2020-03-09 05:48:08] [info] ----------------------------------------------------
+[2020-03-09 05:48:08] [info] Coverage binary generated in file: C:\Users\ilaza\AppData\Local\Temp\y2mcanfz.lnd
+[2020-03-09 05:48:08] [info] ----------------------------------------------------

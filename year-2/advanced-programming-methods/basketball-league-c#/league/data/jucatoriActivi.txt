@@ -1,0 +1,12 @@
+﻿1,1,0,Rezerva
+9,1,3,Participant
+10,1,1,Participant
+2,1,0,Rezerva
+4,1,4,Participant
+7,1,0,Rezerva
+1,2,2,Participant
+9,2,0,Participant
+10,2,1,Participant
+3,2,2,Participant
+5,2,0,Rezerva
+8,2,100,Participant

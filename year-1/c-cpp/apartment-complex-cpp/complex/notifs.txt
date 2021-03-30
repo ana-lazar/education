@@ -1,0 +1,2 @@
+14,Patricia,125,o camera
+11,Ana,100,garsoniera

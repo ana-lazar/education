@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="380.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+   <children>
+       <Rectangle arcHeight="30.0" arcWidth="30.0" fill="white" height="175.0" layoutX="98.0" layoutY="102.0" stroke="black" width="254.0" />
+       <TextField fx:id="usernameField" alignment="CENTER" layoutX="160.0" layoutY="133.0" prefHeight="27.0" prefWidth="131.0"
+                  style="-fx-background-color:white; -fx-background-radius: 10 10 10 10; -fx-border-radius: 10 10 10 10; -fx-border-color: #8c8c8c">
+           <font>
+               <Font size="11.0" />
+           </font>
+       </TextField>
+       <PasswordField fx:id="passwordField" alignment="CENTER" layoutX="160.0" layoutY="176.0" prefHeight="27.0" prefWidth="131.0"
+                      style="-fx-background-color:white; -fx-background-radius: 10 10 10 10; -fx-border-radius: 10 10 10 10; -fx-border-color: #8c8c8c">
+           <font>
+               <Font size="11.0" />
+           </font>
+       </PasswordField>
+       <Button layoutX="160.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleLogIn" prefHeight="27.0" prefWidth="131.0" text="Log In"
+               style="-fx-background-color:white; -fx-background-radius: 10 10 10 20; -fx-border-radius: 10 10 10 10; -fx-border-color: #8c8c8c">
+    </Button>
+      <Label layoutX="188.0" layoutY="64.0" text="LOG IN">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

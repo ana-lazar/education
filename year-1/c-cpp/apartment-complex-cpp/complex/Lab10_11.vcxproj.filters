@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{34f306b8-edd5-46f4-8847-b36903a4c2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{614a7aca-cb29-43ec-bd0d-8cb6879486cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{21cfac0d-edb4-4699-98db-5272adc5de92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{d7347627-0bde-4d73-a6e0-f32d931353d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textFiles">
+      <UniqueIdentifier>{7c938556-2b9f-4bdd-817e-4c7ce0160879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="repository">
+      <UniqueIdentifier>{33ee15d4-e042-4a02-9ec8-5a5f92bb94e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service">
+      <UniqueIdentifier>{293b123c-5a9b-4dd3-999d-297049f5939e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{d2203ee3-ce8f-463e-b651-a4ddd0ff2e3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Lab10_11.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Lab10_11.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="coordinator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadOnlyWindow.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="NotificationWindow.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="domain.cpp">
+      <Filter>domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Validator.cpp">
+      <Filter>domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="tests.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Repository.cpp">
+      <Filter>repository</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NotificationWindow.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadOnlyWindow.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="domain.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="observer.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Validator.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="undos.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="tests.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Repository.h">
+      <Filter>repository</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="notifs.txt">
+      <Filter>textFiles</Filter>
+    </Text>
+    <Text Include="tenants.txt">
+      <Filter>textFiles</Filter>
+    </Text>
+    <Text Include="tests.txt">
+      <Filter>textFiles</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

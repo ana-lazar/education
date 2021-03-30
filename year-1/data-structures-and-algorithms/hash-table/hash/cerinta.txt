@@ -1,0 +1,10 @@
+
+Sa se implementeze in C++ un anumit container de date (TAD) folosind o anumita
+reprezentare (indicata) si o tabela de dispersie (TD) ca structura de date, cu o anumita metoda
+(indicata) pentru rezolvarea coliziunilor:
+- Liste independente
+- Liste intrepatrunse
+- Adresare deschisa 
+
+	17. TAD Dictionar Ordonat – reprezentare sub forma unei TD cu rezolvare coliziuni prin adresare
+	deschisa, dispersia dubla

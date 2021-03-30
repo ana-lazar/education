@@ -1,0 +1,10 @@
+﻿1,Ana Lazar,Liceul Teoretic ELF
+2,Paco Pakkun,Liceul cu Program Sportiv Cluj-Napoca
+3,Catalin Bodea,Seminarul Teologic Ortodox
+4,Adi Pavi,Liceul cu Program Sportiv Cluj-Napoca
+5,Georgia Berar,Seminarul Teologic Ortodox
+6,Ada Seghezi,Scoala Gimnaziala "Gheorghe Sincai" Floresti
+7,Patricia Vuscan,Liceul cu Program Sportiv Cluj-Napoca
+8,Turtania Turdean,Seminarul Teologic Ortodox
+9,Pitic Pitic,Liceul Teoretic ELF
+10,Castravete Raul,Liceul Teoretic ELF

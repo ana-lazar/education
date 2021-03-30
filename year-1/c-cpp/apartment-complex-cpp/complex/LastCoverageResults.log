@@ -1,0 +1,22 @@
+[2020-05-04 05:11:45] [info] Start Program:
+Path:"C:\\Users\\ilaza\\Desktop\\UBB\\ANUL 1 - semestrul 2\\LABORATOARE\\OOP\\Lab10_11\\Debug\\Lab10_11.exe"
+Arguments:
+Working directory: "C:\\Users\\ilaza\\Desktop\\UBB\\ANUL 1 - semestrul 2\\LABORATOARE\\OOP\\Lab10_11\\Lab10_11\\"
+Modules: Selected: C:\Users\ilaza\Desktop\UBB\ANUL 1 - semestrul 2\LABORATOARE\OOP\Lab10_11\Debug\Lab10_11.exe Excluded: 
+Sources: Selected: C:\Users\ilaza\Desktop\UBB\ANUL 1 - semestrul 2\LABORATOARE\OOP\Lab10_11\Lab10_11 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\ilaza\AppData\Local\Temp\th3zy4lv.3an 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2020-05-04 05:11:45] [info] Module: C:\Users\ilaza\Desktop\UBB\ANUL 1 - semestrul 2\LABORATOARE\OOP\Lab10_11\Debug\Lab10_11.exe is selected because it matches selected pattern: C:\Users\ilaza\Desktop\UBB\ANUL 1 - semestrul 2\LABORATOARE\OOP\Lab10_11\Debug\Lab10_11.exe
+[2020-05-04 05:11:45] [info] ----------------------------------------------------
+[2020-05-04 05:11:45] [info] Coverage binary generated in file: C:\Users\ilaza\AppData\Local\Temp\th3zy4lv.3an
+[2020-05-04 05:11:45] [info] ----------------------------------------------------
+[2020-05-04 05:11:45] [error] Your program stop with error code: -1073741515
