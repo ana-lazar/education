@@ -4,9 +4,9 @@
 
 #### Fundammentals of programming
 
-#### Object-Oriented Programming
-
 #### Data Structures and Algorithms
+
+#### Object Oriented Programming
 
 
 ### Year 2
