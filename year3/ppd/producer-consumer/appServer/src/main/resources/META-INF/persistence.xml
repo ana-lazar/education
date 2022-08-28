@@ -1,0 +1,26 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+    <persistence-unit name="my-persistence-unit" transaction-type="RESOURCE_LOCAL">
+<!--        <exclude-unlisted-classes>false</exclude-unlisted-classes>-->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <!-- mapped model entities -->
+        <class>model.Vanzare</class>
+        <class>model.Spectacol</class>
+        <class>model.Verificare</class>
+
+        <properties>
+            <!-- hibernate settings -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.SQLiteDialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+<!--            <property name="hibernate.jdbc.time_zone" value="UTC"/>-->
+            <!-- database connection -->
+            <property name="javax.persistence.jdbc.driver" value="org.sqlite.JDBC"/>
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:sqlite:/Users/analazar/Downloads/ppd_proiecte/PPD_P1/appServer/database/mydb"/>
+            <!--            <property name="javax.persistence.jdbc.user" value="postgres" />-->
+            <!--            <property name="javax.persistence.jdbc.password" value="postgres" />-->
+        </properties>
+    </persistence-unit>
+</persistence>

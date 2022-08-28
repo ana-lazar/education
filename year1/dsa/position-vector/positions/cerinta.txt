@@ -1,0 +1,6 @@
+TAD Colectie – memorata sub forma unui vector cu elementele distincte (D) si a unui vector
+de pozitii (P) în D ale elementelor colectiei.
+
+Spre exemplu, colectia [5, 10, -1, 2, 3, 10, 5, 5, -5] va fi reprezentata sub forma vectorilor
+D = [5, 10, -1, 2, 3, -5]
+P = [0, 1, 2, 3, 4, 1, 0, 0, 5]

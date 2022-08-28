@@ -1,0 +1,128 @@
+# depslib dependency file v1.0
+1648670719 source:c:\users\ilaza\downloads\grafica\3_planets\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"glad.h"
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1648670613 c:\users\ilaza\downloads\grafica\3_planets\glad.h
+	<KHR/khrplatform.h>
+
+1649864563 source:c:\users\ilaza\downloads\grafica\3_planets\main.cpp
+	"glad.h"
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"filesystem.h"
+	"shader_m.h"
+	"camera.h"
+	"model.h"
+	<iostream>
+
+1649808569 source:c:\users\ilaza\downloads\grafica\3_planets\mainy.cpp
+	"glad.h"
+	<GLFW/glfw3.h>
+	<GL/glut.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<string>
+	<iostream>
+	<vector>
+	<fstream>
+	<windows.h>
+
+1649807876 c:\users\ilaza\downloads\grafica\3_planets\camera.h
+	"glad.h"
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<vector>
+
+1649808317 c:\users\ilaza\downloads\grafica\3_planets\filesystem.h
+	<string>
+	<cstdlib>
+
+1649862132 c:\users\ilaza\downloads\grafica\3_planets\mesh.h
+	"glad.h"
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"shader.h"
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<vector>
+
+1649807915 c:\users\ilaza\downloads\grafica\3_planets\shader.h
+	"glad.h"
+	<glm/glm.hpp>
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1649861760 c:\users\ilaza\downloads\grafica\3_planets\model.h
+	"glad.h"
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"stb_image.h"
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"mesh.h"
+	"shader.h"
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<map>
+	<vector>
+
+1649787024 c:\users\ilaza\downloads\grafica\3_planets\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1649808928 c:\users\ilaza\downloads\grafica\3_planets\shader_m.h
+	"glad.h"
+	<glm/glm.hpp>
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1649787033 c:\users\ilaza\downloads\grafica\3_planets\shader_s.h
+	<glad/glad.h>
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1649808833 source:c:\users\ilaza\downloads\grafica\3_planets\stb_image_aug.c
+	"stb_image_aug.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1649787024 c:\users\ilaza\downloads\grafica\3_planets\stb_image_aug.h
+	<stdio.h>
+

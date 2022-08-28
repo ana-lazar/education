@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="userValidator" class="validators.UserValidator"/>
+    <bean id="raceValidator" class="validators.RaceValidator"/>
+    <bean id="teamValidator" class="validators.TeamValidator"/>
+    <bean id="participantValidator" class="validators.ParticipantValidator"/>
+
+    <bean id="myJdbcTemplate" class="myjdbc.MyJdbcTemplate">
+        <property name="config" value="/Users/analazar/Intellij/motorcycle-client-server/MotorcycleServer/src/main/resources/bd.config"/>
+    </bean>
+
+    <bean id="userRepository" class="repositories.hibernate.UserOrmRepository">
+<!--        <property name="validator" ref="userValidator"/>-->
+<!--        <property name="template" ref="myJdbcTemplate"/>-->
+    </bean>
+
+    <bean id="raceRepository" class="repositories.database.RaceJdbcRepository">
+        <property name="validator" ref="raceValidator"/>
+        <property name="template" ref="myJdbcTemplate"/>
+    </bean>
+
+    <bean id="teamRepository" class="repositories.database.TeamJdbcRepository">
+        <property name="validator" ref="teamValidator"/>
+        <property name="template" ref="myJdbcTemplate"/>
+    </bean>
+
+    <bean id="participantRepository" class="repositories.database.ParticipantJdbcRepository">
+        <property name="validator" ref="participantValidator"/>
+        <property name="template" ref="myJdbcTemplate"/>
+    </bean>
+
+    <bean id="service" class="services.MotorcycleServiceImpl">
+        <property name="userRepository" ref="userRepository"/>
+        <property name="raceRepository" ref="raceRepository"/>
+        <property name="teamRepository" ref="teamRepository"/>
+        <property name="participantRepository" ref="participantRepository"/>
+    </bean>
+
+    <context:property-placeholder location="classpath:properties/server.properties"/>
+
+    <bean id="server" class="networking.RpcConcurrentServer">
+        <property name="port" value="${server.port}"/>
+        <property name="motorcycleService" ref="service"/>
+    </bean>
+</beans>

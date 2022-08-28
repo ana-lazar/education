@@ -1,0 +1,22 @@
+Problema 9: agentie de turism
+
+Creati o aplicatie care permite gestiunea ofertelor de la o agentie de turism.
+Fiecare oferta are: tip (munte, mare, city break), destinatie, data plecare, pret
+Aplicatia permite:
+	a) Adaugarea de noi oferte.
+	b) Actualizare oferte
+	c) Stergere oferta
+	d) Vizualizare oferte ordonate dupa pret, destinatie (crescator/descrescator)
+	e) Vizualizare oferta filtrate dupa un criteriu (destinatie, tip, pret)
+
+Arhitectura stratificata
+	- UI (interfata de tip consola)
+	- domain (struct; SAPT 3: char[20]; SAPT 4: char*)
+	- service (creeaza, adauga etc.)
+
+SAPT 3: lista statica
+SAPT 4: alocare dinamica
+
+Specificatii, teste (toate inafara de UI)
+
+Validare date de intrare

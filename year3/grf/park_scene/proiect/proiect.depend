@@ -1,0 +1,184 @@
+# depslib dependency file v1.0
+1648670719 source:c:\users\ilaza\downloads\proiect\proiect\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"glad.h"
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1648670613 c:\users\ilaza\downloads\proiect\proiect\glad.h
+	<KHR/khrplatform.h>
+
+1651662835 source:c:\users\ilaza\downloads\proiect\proiect\mesh.cpp
+	"mesh.h"
+
+1651663618 c:\users\ilaza\downloads\proiect\proiect\mesh.h
+	"glad.h"
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<string>
+	<vector>
+
+1651662835 source:c:\users\ilaza\downloads\proiect\proiect\model.cpp
+	"model.h"
+
+1651665268 c:\users\ilaza\downloads\proiect\proiect\model.h
+	"glad.h"
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"stb_image.h"
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"mesh.h"
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<map>
+	<vector>
+
+1651665251 c:\users\ilaza\downloads\proiect\proiect\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1651662835 source:c:\users\ilaza\downloads\proiect\proiect\obiect.cpp
+	"obiect.h"
+
+1651663678 c:\users\ilaza\downloads\proiect\proiect\obiect.h
+	"model.h"
+	<iostream>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1651662836 source:c:\users\ilaza\downloads\proiect\proiect\scena.cpp
+	"scena.h"
+
+1651663687 c:\users\ilaza\downloads\proiect\proiect\scena.h
+	"obiect.h"
+	<iostream>
+
+1652302656 source:c:\users\ilaza\downloads\proiect\proiect\main.cpp
+	"glad.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"model.h"
+	"mesh.h"
+	"obiect.h"
+	"scena.h"
+	"stb_image.h"
+
+1651626836 source:c:\info\info an 3\sem2\grafica\proiect\proiect\mesh.cpp
+	"mesh.h"
+
+1652824986 c:\info\info an 3\sem2\grafica\proiect\proiect\mesh.h
+	"glad.h"
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<string>
+	<vector>
+
+1652456563 c:\info\info an 3\sem2\grafica\proiect\proiect\glad.h
+	<KHR/khrplatform.h>
+
+1652899148 source:c:\info\info an 3\sem2\grafica\proiect\proiect\main.cpp
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<vector>
+	<math.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"model.h"
+	"mesh.h"
+	"obiect.h"
+	"scena.h"
+	"stb_image.h"
+
+1651629270 c:\info\info an 3\sem2\grafica\proiect\proiect\model.h
+	"glad.h"
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"stb_image.h"
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	"mesh.h"
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<map>
+	<vector>
+
+1651629252 c:\info\info an 3\sem2\grafica\proiect\proiect\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1652801976 c:\info\info an 3\sem2\grafica\proiect\proiect\obiect.h
+	"model.h"
+	<iostream>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1651627688 c:\info\info an 3\sem2\grafica\proiect\proiect\scena.h
+	"obiect.h"
+	<iostream>
+
+1652825248 source:c:\info\info an 3\sem2\grafica\proiect\proiect\model.cpp
+	"model.h"
+
+1652801983 source:c:\info\info an 3\sem2\grafica\proiect\proiect\obiect.cpp
+	"obiect.h"
+
+1651626838 source:c:\info\info an 3\sem2\grafica\proiect\proiect\scena.cpp
+	"scena.h"
+
+1652631369 source:c:\info\info an 3\sem2\grafica\proiect\proiect\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+

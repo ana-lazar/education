@@ -1,0 +1,7 @@
+
+
+Sa se implementeze in C++ un anumit container de date (TAD) folosind o anumita
+reprezentare (indicata) si un arbore binar de cautare (ABC) ca structura de date. 
+
+	5. TAD Colectie cu elemente de tip TComparabil – reprezentare prin perechi de forma (element,
+frecventa), folosind un ABC reprezentat inlantuit, cu inlantuiri reprezentate pe tablou.

@@ -1,0 +1,10 @@
+
+2;Ana;Narciselor 20
+3;Stefan;Clinicilor 10
+4;Patricia;Victor Babes 5
+5;Ioan;Nicolae Draganu 45
+6;Tudor;Al. Vaida Voievod 29
+7;Ioana;Borsec 9
+8;Maria;Andrei Saguna 8
+9;Dorin;Brancusi 34
+10;Larisa;Dorobantilor 19

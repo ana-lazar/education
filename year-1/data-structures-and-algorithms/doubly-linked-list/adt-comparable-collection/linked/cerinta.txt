@@ -1,7 +1,0 @@
-
-   Sa se implementeze in C++ un anumit container de date (TAD) folosind o anumita
-reprezentare (indicata) si o lista inlantuita (LSI – lista simplu inlantuita, LDI – lista dublu inlantuita)
-ca structura de date, cu reprezentarea inlantuirilor pe tablou dinamic. 
-
-6. TAD Colectie cu elemente de tip comparabil (TElement=TComparabil)– reprezentare folosind
-o LDI cu elementele ordonate in raport cu relatia de ordine R

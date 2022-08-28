@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userValidator" class="domain.validators.UserValidator"/>
+    <bean id="raceValidator" class="domain.validators.RaceValidator"/>
+    <bean id="teamValidator" class="domain.validators.TeamValidator"/>
+    <bean id="participantValidator" class="domain.validators.ParticipantValidator"/>
+
+    <bean id="myJdbcTemplate" class="myjdbc.MyJdbcTemplate">
+        <constructor-arg value="bd.config"/>
+    </bean>
+
+    <bean id="userRepository" class="repositories.database.UserJdbcRepository">
+        <constructor-arg ref="myJdbcTemplate"/>
+        <constructor-arg ref="userValidator"/>
+    </bean>
+
+    <bean id="raceRepository" class="repositories.database.RaceJdbcRepository">
+        <constructor-arg ref="myJdbcTemplate"/>
+        <constructor-arg ref="raceValidator"/>
+    </bean>
+
+    <bean id="teamRepository" class="repositories.database.TeamJdbcRepository">
+        <constructor-arg ref="myJdbcTemplate"/>
+        <constructor-arg ref="teamValidator"/>
+    </bean>
+
+    <bean id="participantRepository" class="repositories.database.ParticipantJdbcRepository">
+        <constructor-arg ref="myJdbcTemplate"/>
+        <constructor-arg ref="participantValidator"/>
+    </bean>
+
+    <bean id="service" class="services.MotorcycleContestService">
+        <constructor-arg ref="userRepository"/>
+        <constructor-arg ref="raceRepository"/>
+        <constructor-arg ref="teamRepository"/>
+        <constructor-arg ref="participantRepository"/>
+    </bean>
+</beans>
