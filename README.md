@@ -1,5 +1,5 @@
-# Babes-Bolyai University, Faculty of Mathematics and Computer Science
-## Bachelor's Computer Science
+# Babes-Bolyai University
+## Bachelor's in Computer Science
 ### Year 1
 
 #### Fundammentals of programming
