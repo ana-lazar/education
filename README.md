@@ -94,7 +94,7 @@
 
 - [Native Android App](https://github.com/ana-lazar/education/tree/main/year3/am/ikea-android)
 
-- [Cross-platform App - Ionic React](https://github.com/ana-lazar/education/tree/main/year3/am/ikea-ionic)
+- [Cross-platform App](https://github.com/ana-lazar/education/tree/main/year3/am/ikea-ionic)
 
 - [Node REST services](https://github.com/ana-lazar/education/tree/main/year3/am/node-server)
 
