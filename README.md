@@ -1,5 +1,5 @@
-# Education
-## Babes-Bolyai University Computer Science Student
+# Babes-Bolyai University, Faculty of Mathematics and Computer Science
+## Bachelor's Computer Science
 ### Year 1
 
 #### Fundammentals of programming
