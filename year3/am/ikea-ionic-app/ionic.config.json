@@ -1,0 +1,7 @@
+{
+  "name": "ikea-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
