@@ -1,30 +1,53 @@
 # Babes-Bolyai University
+
 ## Bachelor's in Computer Science
+
 ### Year 1
 
 #### Fundammentals of programming
 
 - [Python CLI project](https://github.com/ana-lazar/education/tree/main/year1/fp/EventManagerCLI)
 
+  - Python: all language features
+  - Layered architecture: command line interface, service, repository, domain, validation
+  - Persistence: file
+  - Patterns: basic GRASP, SOLID
+  - Case study: Event Management
+
 - [Python GUI project](https://github.com/ana-lazar/education/tree/main/year1/fp/CalculatorGUI)
+
+  - Python: all language features
+  - Tkinter: basic features
+  - Case study: Calculator (operations and conversions in bases 2, 4, 8, 16)
 
 #### Data Structures and Algorithms
 
 - C++ implementations for the following data structures:
-    - [Binary Search Tree](https://github.com/ana-lazar/education/tree/main/year1/dsa/binary-search-tree)
-    - Doubly Linked List -> [Comparable Collection](https://github.com/ana-lazar/education/tree/main/year1/dsa/doubly-linked-list/ComparableCollection) / [Priority queue](https://github.com/ana-lazar/education/tree/main/year1/dsa/doubly-linked-list/PriorityQueue)
-    - [Hash Table](https://github.com/ana-lazar/education/tree/main/year1/dsa/hash-table)
-    - [Position Vector](https://github.com/ana-lazar/education/tree/main/year1/dsa/position-vector)
+  - [Position Vector](https://github.com/ana-lazar/education/tree/main/year1/dsa/position-vector), Case study: Collection
+  - Doubly Linked List, Case study: [Comparable Collection](https://github.com/ana-lazar/education/tree/main/year1/dsa/doubly-linked-list/ComparableCollection)
+  - Doubly Linked List, Case study: [Priority queue](https://github.com/ana-lazar/education/tree/main/year1/dsa/doubly-linked-list/PriorityQueue)
+  - [Hash Table](https://github.com/ana-lazar/education/tree/main/year1/dsa/hash-table), Case study: Ordered Dictionary
+  - [Binary Search Tree](https://github.com/ana-lazar/education/tree/main/year1/dsa/binary-search-tree), Case study: Collection
 
 #### Object Oriented Programming
 
 - [C project](https://github.com/ana-lazar/education/tree/main/year1/oop/tourism_agency_c)
 
-- [C++ project](https://github.com/ana-lazar/education/tree/main/year1/oop/ApartmentComplexCPP)
+  - C: all language features
+  - Layered architecture: command line interface, service, repository, domain, validation
+  - Case study: Tourism Agency
+
+- [C++ GUI project](https://github.com/ana-lazar/education/tree/main/year1/oop/ApartmentComplexCPP)
+
+  - C++: all language features
+  - Qt: basic features
+  - Layered architecture: graphical user interface, service, repository, domain, validation
+  - Patterns: GRASP, SOLID, GoF (Strategy, Template method, Observer)
+  - Case Study: Apartment Complex
 
 #### [Graph Algorithms](https://github.com/ana-lazar/education/tree/main/year1/ga)
 
-- C++ implemented algorithms on graphs: Bellman-Ford, BFS, DFS, Djikstra, Fleury, Floyd-Warshall, Ford-Fulkerson, Johnson, Kosaraju, Kruskal, Moore, etc.
+- C++ implementations: Bellman-Ford, BFS, DFS, Djikstra, Fleury, Floyd-Warshall, Ford-Fulkerson, Johnson, Kosaraju, Kruskal, Moore, etc.
 
 ### Year 2
 
@@ -32,17 +55,31 @@
 
 - [C# CLI project](https://github.com/ana-lazar/education/tree/main/year2/map/BasketballLeague)
 
+  - C#: all language features
+  - Patterns: Decorator, Factory method, Singleton
+  - Case Study: Basketball League
+
 - [Java GUI project](https://github.com/ana-lazar/education/tree/main/year2/map/SocialNetwork)
+
+  - Java: all language features
+  - JavaFX: basic features
+  - Patterns: Model-View-Controller, Observer, etc.
+  - Case Study: Social Network
 
 #### Software Systems Engineering
 
 - [Java client-server RMI app](https://github.com/ana-lazar/education/tree/main/year2/iss/Pharmacy)
 
+  - Java: all language features
+  - Spring Framework: Spring Boot, Spring RMI, Spring Data JPA
+  - Client: JavaFX interface
+  - Communication Protocol: Remote Method Invocation
+  - Persistence Provider: Hibernate
+  - Case Study: Pharmacy
+
 #### Design and Programming Environments
 
 - [C# client-server app](https://github.com/ana-lazar/education/tree/main/year2/mpp/c%23/MotorcycleContest)
-
-- [C# REST client](https://github.com/ana-lazar/education/tree/main/year2/mpp/c%23/MotorcycleRestClient)
 
 - [Java GUI app](https://github.com/ana-lazar/education/tree/main/year2/mpp/java/MotorcycleContest)
 
@@ -54,27 +91,31 @@
 
 - [Java REST services](https://github.com/ana-lazar/education/tree/main/year2/mpp/java/MotorcycleRaceRest)
 
+- [C# REST client](https://github.com/ana-lazar/education/tree/main/year2/mpp/c%23/MotorcycleRestClient)
+
 - [Java Spring remoting](https://github.com/ana-lazar/education/tree/main/year2/mpp/java/MotorcycleSpringRemoting)
 
 - [React Web Client](https://github.com/ana-lazar/education/tree/main/year2/mpp/js)
+
+  - React: base features (Components)
+  - Case Study: Motorcycle Race Management
 
 #### Artificial intelligence
 
 - [Greedy](https://github.com/ana-lazar/education/tree/main/year2/ai/greedy-tsp)
 
 - Genetic Algorithms:
-    - [Travelling Salesman Problem](https://github.com/ana-lazar/education/tree/main/year2/ai/ga-tsp)
-    - [Communities Problem](https://github.com/ana-lazar/education/tree/main/year2/ai/ga-tsp)
+
+  - [Travelling Salesman Problem](https://github.com/ana-lazar/education/tree/main/year2/ai/ga-tsp)
+  - [Communities Problem](https://github.com/ana-lazar/education/tree/main/year2/ai/ga-tsp)
 
 - [Ant Colony Optimisation](https://github.com/ana-lazar/education/tree/main/year2/ai/aco-tsp)
-    
 - Machine Learning:
-    - [Gradient Descent](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-gd)
-    - [Linear Regression](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-linear-regression)
-    - [Logistic Regression](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-logistic-regression)
-    - [K-Means](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-kmeans)
-    - [Neural Network](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-neural-network)
-    
+  - [Gradient Descent](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-gd)
+  - [Linear Regression](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-linear-regression)
+  - [Logistic Regression](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-logistic-regression)
+  - [K-Means](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-kmeans)
+  - [Neural Network](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-neural-network)
 - [Emotion Detection](https://github.com/ana-lazar/education/tree/main/year2/ai/emotion-detection)
 
 - [Predictions](https://github.com/ana-lazar/education/tree/main/year2/ai/predictions)
@@ -86,7 +127,6 @@
 #### [Computer Networks](https://github.com/ana-lazar/education/tree/main/year2/sn)
 
 - Cisco Packet Tracer project
-
 
 ### Year 3
 
@@ -136,15 +176,14 @@
 
 - [Project Management App](https://github.com/ana-lazar/education/tree/main/year3/pc/ProjectManagement)
 
-
 ### Diploma project
 
 - [IFML Compose Plugin](https://github.com/ana-lazar/education/tree/main/diploma/ifml-compose-plugin)
-    - Destined for Android applications that are built using Jetpack Compose
-    - Model-driven approach to mobile app development
-        - Vizualize and edit IFML models for the current project
-        - Generate and modify interface components directly through diagrams
-    - Kotlin: all language features
-    - JavaFX: basic features
-    - Targeted IDE: Android Studio
-    - Standard: [IFML](https://www.ifml.org/) (Interaction Flow Modeling Language)
+  - Destined for Android applications that are built using Jetpack Compose
+  - Model-driven approach to mobile app development
+    - Vizualize and edit IFML models for the current project
+    - Generate and modify interface components directly through diagrams
+  - Kotlin: all language features
+  - JavaFX: basic features
+  - Targeted IDE: Android Studio
+  - Standard: [IFML](https://www.ifml.org/) (Interaction Flow Modeling Language)
