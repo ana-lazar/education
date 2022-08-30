@@ -45,9 +45,9 @@
   - Patterns: GRASP, SOLID, GoF (Strategy, Template method, Observer)
   - Case Study: Apartment Complex
 
-#### [Graph Algorithms](https://github.com/ana-lazar/education/tree/main/year1/ga)
+#### Graph Algorithms
 
-- C++ implementations: Bellman-Ford, BFS, DFS, Djikstra, Fleury, Floyd-Warshall, Ford-Fulkerson, Johnson, Kosaraju, Kruskal, Moore, etc.
+- [C++ implementations](https://github.com/ana-lazar/education/tree/main/year1/ga): Bellman-Ford, BFS, DFS, Djikstra, Fleury, Floyd-Warshall, Ford-Fulkerson, Johnson, Kosaraju, Kruskal, Moore, etc.
 
 ### Year 2
 
@@ -104,29 +104,72 @@
 
 - [Greedy](https://github.com/ana-lazar/education/tree/main/year2/ai/greedy-tsp)
 
-- Genetic Algorithms:
+  - Python: basic features
+  - Case Study: Travelling Salesman Problem
+
+- Genetic Algorithm implementations (Python):
 
   - [Travelling Salesman Problem](https://github.com/ana-lazar/education/tree/main/year2/ai/ga-tsp)
-  - [Communities Problem](https://github.com/ana-lazar/education/tree/main/year2/ai/ga-tsp)
+
+  - [Communities Problem](https://github.com/ana-lazar/education/tree/main/year2/ai/ga-communities)
+
+    - Next generation: Elitism, Steady State, Tournament Selection, Roulette Wheel Selection
 
 - [Ant Colony Optimisation](https://github.com/ana-lazar/education/tree/main/year2/ai/aco-tsp)
-- Machine Learning:
+
+  - Python: basic features
+  - Case Study: Travelling Salesman Problem
+
+- Machine Learning implementations (Python):
+
+  - [Simple Linear Regression](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-linear-regression)
+
+    - Supervised learning - Regression problem
+    - Error: Mean Squared Error
+    - Case study: Predicting citizens' happiness scores based on certain features: GDP, Freedom, Family, etc.
+
   - [Gradient Descent](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-gd)
-  - [Linear Regression](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-linear-regression)
+
+    - Supervised learning - Regression problem
+    - Types: Stochastic, Batch, Mini-Batch
+    - Case study: Predicting citizens' features based on other certain features: GDP, Freedom, Family, etc.
+
   - [Logistic Regression](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-logistic-regression)
-  - [K-Means](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-kmeans)
+
+    - Supervised learning - Classification problem
+    - Case study: Iris species classification
+
   - [Neural Network](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-neural-network)
+
+    - Supervised learning - Classification problem
+    - Activation type: Sigmoid
+    - Case studies: Digit prediction, Iris species classification, Predicting whether an image is sepia
+
+  - [kMeans](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-kmeans)
+
+    - Unsupervised learning - Classification problem
+    - Case study: Emotion detection in text (reviews)
+
 - [Emotion Detection](https://github.com/ana-lazar/education/tree/main/year2/ai/emotion-detection)
 
-- [Predictions](https://github.com/ana-lazar/education/tree/main/year2/ai/predictions)
+  - Convolutional Neural Networks
+  - Libraries: sklearn, tensorFlow.keras
+  - Case study: Emotion detection on faces/emojis
 
-#### [Databases](https://github.com/ana-lazar/education/tree/main/year2/bd)
+- [Metrics](https://github.com/ana-lazar/education/tree/main/year2/ai/predictions)
 
-- SQL implementations
+  - Python: basic features
+  - Computing Accuracy, Precision, Recall, Confusion Matrix and Loss function (Log, Cross-Entropy, Mean Squared Error) values for some predictions
 
-#### [Computer Networks](https://github.com/ana-lazar/education/tree/main/year2/sn)
+#### Databases
 
-- Cisco Packet Tracer project
+- [SQL implementations](https://github.com/ana-lazar/education/tree/main/year2/bd)
+
+  - DDL (Create, Alter, Drop), DML (Select, Insert, Update, Delete) commands
+
+#### Computer Networks
+
+- [Cisco Packet Tracer project](https://github.com/ana-lazar/education/tree/main/year2/sn)
 
 ### Year 3
 
