@@ -276,14 +276,14 @@
 - [Java Producer-Consumer App](https://github.com/ana-lazar/education/tree/main/year3/ppd/producer-consumer)
 
   - Java Client-Server App (Case study: Concert Ticket Management)
-  - Library: java.uril.concurrent (ExecutorService, ReentrantLock, CountDownLatch)
+  - Library: java.util.concurrent (ExecutorService, ReentrantLock, CountDownLatch)
   - Case study: Valdating tickets number and room capacity
 
 - [CUDA Project](https://github.com/ana-lazar/education/tree/main/year3/ppd/sepia-cuda)
 
   - CUDA: basic features
   - GPU computations
-  - Case study: Apply sepia filter to an image synchronously
+  - Case study: Apply sepia filter to an image's pixels synchronously
 
 #### Testing
 
