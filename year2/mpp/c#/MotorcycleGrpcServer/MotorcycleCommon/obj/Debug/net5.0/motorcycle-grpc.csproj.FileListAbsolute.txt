@@ -1,0 +1,6 @@
+C:\Ana\motorcycle-grpc\motorcycle-grpc\obj\Debug\net5.0\motorcycle-grpc.csprojAssemblyReference.cache
+C:\Ana\motorcycle-grpc\motorcycle-grpc\obj\Debug\net5.0\motorcycle-grpc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ana\motorcycle-grpc\motorcycle-grpc\obj\Debug\net5.0\motorcycle-grpc.AssemblyInfoInputs.cache
+C:\Ana\motorcycle-grpc\motorcycle-grpc\obj\Debug\net5.0\motorcycle-grpc.AssemblyInfo.cs
+C:\Ana\motorcycle-grpc\motorcycle-grpc\obj\Debug\net5.0\motorcycle-grpc.csproj.CoreCompileInputs.cache
+C:\Ana\motorcycle-grpc\motorcycle-grpc\obj\Debug\net5.0\motorcycle-grpc.MvcApplicationPartsAssemblyInfo.cache

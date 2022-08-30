@@ -1,5 +1,0 @@
-rootProject.name = 'motorcycle-client-server'
-include 'MotorcycleClient'
-include 'MotorcycleServer'
-include 'MotorcycleCommon'
-

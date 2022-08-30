@@ -79,21 +79,46 @@
 
 #### Design and Programming Environments
 
-- [C# client-server app](https://github.com/ana-lazar/education/tree/main/year2/mpp/c%23/MotorcycleContest)
+- [C# client-server project](https://github.com/ana-lazar/education/tree/main/year2/mpp/c%23/MotorcycleClientServer)
 
-- [Java GUI app](https://github.com/ana-lazar/education/tree/main/year2/mpp/java/MotorcycleContest)
+  - C#: all language features
+  - Communication protocol: RPC
+  - Persistence: Postgres database
+  - Sockets (TCP/IP), Multithreading, Proxy Pattern
+  - Case study: Motorcycle Race Management
 
-- [Java client-server app](https://github.com/ana-lazar/education/tree/main/year2/mpp/java/MotorcycleClientServer)
+- [Java client-server app](https://github.com/ana-lazar/education/tree/main/year2/mpp/java/MotorcycleContestHibernate)
 
-- [Java hibernate app](https://github.com/ana-lazar/education/tree/main/year2/mpp/java/MotorcycleContestHibernate)
+  - Java: all language features
+  - JavaFX: basic features
+  - Communication protocol: RPC
+  - Persistence: Hibernate
+  - Sockets (TCP/IP), Multithreading, Proxy Pattern
+  - Case Study: Motorcycle Race Management
 
 - [Java client-server gRPC app](https://github.com/ana-lazar/education/tree/main/year2/mpp/java/MotorcycleGrpcClient)
 
+  - Cross-Platform Application: Interface Definition Language, Protocol Buffers
+  - Communication protocol: gRPC
+  - Case Study: Motorcycle Race Management
+
+- [C# gRPC server](https://github.com/ana-lazar/education/tree/main/year2/mpp/c%23/MotorcycleGrpcServer)
+
+  - Cross-Platform Application: Interface Definition Language, Protocol Buffers
+  - Communication protocol: gRPC
+  - Case Study: Motorcycle Race Management
+
 - [Java REST services](https://github.com/ana-lazar/education/tree/main/year2/mpp/java/MotorcycleRaceRest)
+
+  - Spring Framework: Spring MVC
+  - REST API
+  - Communication protocol: HTTP
+  - Case Study: Motorcycle Race Management (CRUD)
 
 - [C# REST client](https://github.com/ana-lazar/education/tree/main/year2/mpp/c%23/MotorcycleRestClient)
 
-- [Java Spring remoting](https://github.com/ana-lazar/education/tree/main/year2/mpp/java/MotorcycleSpringRemoting)
+  - REST API
+  - Case Study: Motorcycle Race Management (CRUD)
 
 - [React Web Client](https://github.com/ana-lazar/education/tree/main/year2/mpp/js)
 
@@ -125,14 +150,13 @@
   - [Simple Linear Regression](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-linear-regression)
 
     - Supervised learning - Regression problem
-    - Error: Mean Squared Error
-    - Case study: Predicting citizens' happiness scores based on certain features: GDP, Freedom, Family, etc.
+    - Case study: Predicting citizens' happiness based on certain features: GDP, Freedom, Family, etc.
 
   - [Gradient Descent](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-gd)
 
     - Supervised learning - Regression problem
     - Types: Stochastic, Batch, Mini-Batch
-    - Case study: Predicting citizens' features based on other certain features: GDP, Freedom, Family, etc.
+    - Case study: Predicting citizens' features based on other features: GDP, Freedom, Family, etc.
 
   - [Logistic Regression](https://github.com/ana-lazar/education/tree/main/year2/ai/ml-logistic-regression)
 
@@ -158,7 +182,6 @@
 
 - [Metrics](https://github.com/ana-lazar/education/tree/main/year2/ai/predictions)
 
-  - Python: basic features
   - Computing Accuracy, Precision, Recall, Confusion Matrix and Loss function (Log, Cross-Entropy, Mean Squared Error) values for some predictions
 
 #### Databases

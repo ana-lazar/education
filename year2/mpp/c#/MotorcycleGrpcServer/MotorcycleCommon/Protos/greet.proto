@@ -1,0 +1,115 @@
+syntax = "proto3";
+
+option csharp_namespace = "grpc";
+option java_multiple_files = true;
+option java_package = "grpc";
+option java_outer_classname = "proto";
+option objc_class_prefix = "HLW";
+
+package motorcycle;
+
+message User {
+  int32 id = 1;
+  string name = 2;
+  string username = 3;
+  string password = 4;
+}
+
+message UserDto {
+  string username = 1;
+  string password = 2;
+}
+
+message Race {
+  int32 id = 1;
+  int32 capacity = 2;
+}
+
+message RaceDto {
+  Race race = 1;
+  int32 count = 2;
+}
+
+message Participant {
+  int32 id = 1;
+  int32 raceId = 2;
+  int32 teamId = 3;
+  string name = 4;
+}
+
+message ParticipantDto {
+  Race race = 1;
+  Participant participant = 2;
+}
+
+message CredentialsDto {
+  string name = 1;
+  string teamName = 2;
+  int32 capacity = 3;
+}
+
+message Request {
+  enum RequestType {
+    LOGIN = 0;
+    GET_RACES = 1;
+    SEARCH_RACES = 2;
+    FILTER_RACES = 3;
+    GET_PARTICIPANTS = 4;
+    REGISTER = 5;
+    LOGOUT = 6;
+  }
+
+  RequestType type = 1;
+
+  oneof data {
+    UserDto userDto = 2;
+    int32 capacity = 3;
+    string teamName = 4;
+    CredentialsDto credentialsDto = 5;
+  }
+
+  string error = 6;
+}
+
+message Response {
+  enum ResponseType {
+    OK = 0;
+    ERROR = 1;
+    REGISTERED_PARTICIPANT = 2;
+  }
+
+  ResponseType type = 1;
+  User user = 2;
+  repeated Race races = 3;
+  repeated RaceDto raceDtos = 4;
+  RaceDto raceDto = 5;
+  repeated ParticipantDto participants = 6;
+  string error = 7;
+}
+
+service MotorcycleServices {
+  rpc authenticate (Request) returns (Response) {
+  }
+
+  rpc GetRaceByCapacity (Request) returns (Response) {
+  }
+
+  rpc GetRaceInfos (Request) returns (Response) {
+  }
+
+  rpc GetRaces (Request) returns (Response) {
+  }
+
+  rpc GetRaceParticipantsByTeam (Request) returns (Response) {
+  }
+
+  rpc RegisterParticipant (Request) returns (Response) {
+  }
+
+  rpc LogOut (Request) returns (Response) {
+  }
+
+  rpc LogIn (Request) returns (stream Response) {
+  }
+}
+
