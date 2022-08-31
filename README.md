@@ -74,7 +74,7 @@
   - Spring Framework: Spring Boot, Spring RMI, Spring Data JPA
   - Client: JavaFX interface
   - Communication Protocol: Remote Method Invocation
-  - Persistence provider: Hibernate
+  - Persistence provider: Hibernate, SQLite
   - Case study: Pharmacy
 
 #### Design and Programming Environments
@@ -83,7 +83,7 @@
 
   - C#: all language features
   - Communication protocol: RPC
-  - Persistence: Postgres database
+  - Persistence: SQLite database
   - Sockets (TCP/IP), Multithreading, Proxy Pattern
   - Case study: Motorcycle Race Management
 
@@ -92,7 +92,7 @@
   - Java: all language features
   - JavaFX: basic features
   - Communication protocol: RPC
-  - Persistence: Hibernate
+  - Persistence: Hibernate, SQLite
   - Sockets (TCP/IP), Multithreading, Proxy Pattern
   - Case study: Motorcycle Race Management
 
